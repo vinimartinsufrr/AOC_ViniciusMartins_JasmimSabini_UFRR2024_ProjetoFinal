@@ -18,26 +18,23 @@ A CPU foi desenvolvida pelos alunos **Jasmim Sabini** e **Vinicius Cavalcante Ma
 
 ## Estrutura do Projeto
 
-### Arquivos de Projeto
 
-#### - `Src/` (Arquivos base)
-- **CPU_JV.vhdl**: Arquivo principal da CPU, contendo a implementação da arquitetura da CPU.
-- **CPU_JV_tb.vhdl**: Arquivo de testbench que contém o banco de testes para simulação da CPU.
+### Descrição das Pastas:
 
-#### - `Testbenches/`
-- Contém os arquivos de testbench para simulação de componentes e da CPU integrada.
+- **Arquivos_Projeto/**
+  - **Src/**: Contém os arquivos principais de código VHDL do projeto, incluindo o arquivo da CPU e o arquivo de testbench.
+  - **Testbenches/**: Contém os arquivos de testbench para testar individualmente os componentes e a CPU.
 
-### Relatório
-- **Relatório.pdf**: Relatório solicitado pelo professor com detalhes sobre o projeto, objetivos e metodologia de desenvolvimento.
+- **Datapath/**: Contém o diagrama do datapath do processador (arquivo `datapath.png`).
 
-### Testes
-- **Testes de Componentes**: Descrição dos testes realizados para garantir o funcionamento correto dos componentes individuais da CPU, como o ALU, registradores, e RAM.
-- **Testes da CPU**: Descrição dos testes realizados para a CPU integrada, incluindo as verificações de funcionalidade de todas as operações.
+- **Relatorio_Processador_JV/**: Contém o relatório do projeto (arquivo `Relatório_AOC.pdf`).
 
-### Datapath
-- **Datapath.png**: Diagrama da estrutura da datapath da CPU.
+- **Testes/**: Contém os testes realizados para os componentes e para a CPU.
+  - **Teste_de_Componentes/**: Contém os testes realizados para os componentes individuais.
+  - **Testes_da_CPU_JV/**: Contém os testes realizados para verificar o funcionamento da CPU integrada.
 
 ---
+
 
 ## Como Executar o Projeto
 
