@@ -72,14 +72,12 @@ Para executar e simular o projeto **CPU_JV**, recomenda-se usar o **Intel Quartu
 ---
 
 ## Contribuições
-- **Jasmim Sabini**
-- **Vinicius Cavalcante Martins**
+- [Jasmim Sabini](https://github.com/JasmimSabini) Matricula: 2023010360
+- [Vinicius Martins](https://github.com/vinimartinsufrr) Matricula: 2023001156
 
 ### Professor Solicitante:
 - **Hebert Rocha**
 
 ---
 
-## Licença
-Este projeto está licenciado sob a licença XYZ (se necessário). Consulte o arquivo de licença para mais detalhes.
 
