@@ -1,5 +1,5 @@
 # Teste 1
-![Teste 1](../Imagens/Teste1.jpg)
+![Teste 1](../Imagens/Teste1foto.jpg)
 
 Resultado = OK!!!! (SIMULE LOCALMENTE PARA MAIS DETALHE NAS WAVEFORMS!!!!)
 ![Waveforms Teste 1](../Imagens/ResultadoTeste1Waveforms.jpg)
