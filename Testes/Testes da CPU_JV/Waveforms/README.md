@@ -51,7 +51,7 @@ Na borda baixa, o PC recebe o endereço da instrução a ser lido e decodificado
 
 ### Momento 3: "01001110" (Jump para 1110)
 
-- **Intervalo**: 81 a 90 ns
+- **Intervalo**: 21 a 30 ns
     - **Opcode**: 0111
     - **Endereço de Jump**: 0000
     - **Branch**: 1
@@ -204,3 +204,11 @@ A instrução foi devidamente pulada graças ao BEQ.
 A ALU não realiza nenhum cálculo em casos de Jump, só ativa a ZeroFlag e o salto ocorre.
 
 ---
+# Teste 3
+![Teste 1](../Imagens/Teste3.jpg)
+
+Resultado = FALHOU!!!! (SIMULE LOCALMENTE PARA MAIS DETALHE NAS WAVEFORMS!!!!)
+![Waveforms Teste 1](../Imagens/ResultadoTeste3Waveforms.jpg)
+
+**Comentário**:  
+Infelizmente, devido a problemas de inicialização de variaveis (WriteDataRAM) (AddrRAM) e (ReadData (ram)), que nossa equipe não conseguiu corrigir mesmo com muito esforço, não conseguiremos analisar esse caso. portanto as operações LOAD e STORE estão com problema e não podem ser exibidas no nosso processador. Vale dizer que individualmente, a RAM funciona, e o teste perfoma como esperado.
