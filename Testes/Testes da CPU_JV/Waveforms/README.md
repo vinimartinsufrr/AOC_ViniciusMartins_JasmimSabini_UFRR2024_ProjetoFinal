@@ -1,7 +1,7 @@
 # Teste 1
 ![Teste 1](../Imagens/Teste1.jpg)
 
-Resultado = OK!!! (SIMULE LOCALMENTE PARA MAIS DETALHE NAS WAVEFORMS!!!!)
+Resultado = OK!!!! (SIMULE LOCALMENTE PARA MAIS DETALHE NAS WAVEFORMS!!!!)
 ![Waveforms Teste 1](../Imagens/ResultadoTeste1Waveforms.jpg)
 
 ## Descrição dos Sinais
