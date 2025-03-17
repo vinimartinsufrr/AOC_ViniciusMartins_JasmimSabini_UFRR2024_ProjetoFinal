@@ -1,8 +1,8 @@
 # Teste 2
-![Teste 2](Testes/Testes da CPU_JV/Imagens/Teste2.png)
+![Teste 2](../Imagens/Teste2.png)
 
 Resultado = OK!!!
-![Waveforms Teste 2](Testes/Testes da CPU_JV/Imagens/ResultadoTeste2Waveforms.png)
+![Waveforms Teste 2](../Imagens/ResultadoTeste2Waveforms.png)
 
 ## Descrição dos Sinais
 
