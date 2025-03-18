@@ -17,16 +17,29 @@ ARCHITECTURE behavior OF rom IS
         -- Programa de Teste na ROM:
 		  --"01111000", -- beq
         -- OPCODE (4 bits) | REGDST (2 bits) | REGSRC / IMEDIATO (2 bits)
-        --"00100011", --addi de +3 para r0
-		  --"00110001", --subi de -1
+		  --Teste 1 (Addi em 2 registradores, mostrar valor armazenado e JUMP
+		  --"00100010",
+		  --"00100110",
+		  --"01001110", --jump para 1110
 		  
-		  "00100010", --addi de +2 para r0
-		  "00100110", --addi de +2 para r1
-		  --"01111000", -- beq para 1000
-		  "01001110", -- jump para 1110
-		  --"01010001", --add de r0 (4) + r1 (2) = 6
-		  --"01100001", --sub r0 = r0 (6) - r1 (2) = 4
-
+		  --Teste 2
+		  --"00100010", -- addi r0 + 2
+		  --"00100110", -- add r1 + 2
+		  --"01010001", -- add r0 = r0 + r1 = 2 + 2 = 4
+		  --"01010001", -- add r0 = r0 + r1 = 4 + 2 = 6
+		  --"01100001", -- subi r0 = 6 -2 = 4
+		  --"00110010", -- sub r0 = r0- r1 = 2
+		  --Nesse ponto, tanto r0 quanto r1 sao 2
+		  --"01111000", --beq (sempre compara r0 e r1)
+		  --"00000000", -- instrução a ser ignorada
+		  --"01000000", -- jump para o inicio 0000
+		  
+		  --Teste 3
+		  --"00100010", -- addi de +2 para r0
+		  --"10000000", -- store r0
+		  --"00100001", -- addi +1 para r0
+		  --"00010000", -- load r0
+		  
   
         OTHERS => "00000000" -- Preenche o restante da ROM com NOPs
     );
